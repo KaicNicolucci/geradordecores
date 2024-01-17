@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Barra de Navageação */
+
+header {
+    background-color: azure;
+    padding: 18px 0;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #type-color {
+    display: flex;
+}
+
+header #type-color p {
+    padding: 12px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header #type-color p:hover{
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+/* Conteudo MAIN */
+
+body {background-color: red;}
+
+main p{
+    background-color: black;
+    color: white;
+    max-width: 75%;
+    margin: 200px auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 42px;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+main .code-color {
+    color: blue;
+}
+
+main button{
+    margin-top: 15px;
+    margin: 25px auto auto auto;
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    padding: 8px;
+    background-color: blue;
+    border-radius: 15px;
+    cursor: pointer;
+}
