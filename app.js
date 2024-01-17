@@ -1,5 +1,5 @@
 const button = document.querySelector('button');
-let colors = ["red","green", "blue", "gray", "orange", "pink", "purple"];
+let colors = ["red","green", "blue", "gray", "orange", "pink", "purple", "yellow", "black"];
 let spanText = document.querySelector('.code-color');
 
 function gerarCor(items) {
@@ -10,7 +10,7 @@ function gerarCor(items) {
 
 
 button.addEventListener("click", function(){
-    `${gerarCor(colors)}`
-    document.body.style.backgroundColor = `${gerarCor(colors)}`  
-    spanText.innerHTML = `${gerarCor(colors)}`
+    let corGerada = gerarCor(colors)
+    document.body.style.backgroundColor = corGerada  
+    spanText.innerHTML = ` ${corGerada}`
 })
