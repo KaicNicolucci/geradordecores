@@ -32,13 +32,17 @@ header #type-color {
     display: flex;
 }
 
-header #type-color p {
+header #type-color a {
     padding: 12px;
     font-weight: bold;
     font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
 }
 
-header #type-color p:hover{
+header #type-color a:hover{
     color: rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
